@@ -7,10 +7,11 @@
 - https://www.lucypark.kr/slides/2015-pyconkr/#36
 - https://github.com/e9t/nsmc/
 
-## 언어
+## 필수사항
 - Python3
+- Virtualenv
 
-## 필수패키지
+## 설치할 패키지
 - nltk
 - konlpy
 - jpype1
@@ -21,8 +22,9 @@
 
 ## 실행 방법
 ```
-git clone git@github.com:jongbumi/mlstudy_opinion_mining_korean.git
+git clone https://github.com/jongbumi/mlstudy_opinion_mining_korean.git
 
+cd mlstudy_opinion_mining_korean
 virtualenv -p python3 venv
 . venv/bin/activate
 
